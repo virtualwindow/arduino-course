@@ -2,7 +2,7 @@
 
 Welcome to this course. It's going to be a fun one. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UoBUXOOdLXY" frameborder="0" allowfullscreen></iframe>
+Watch this video: [Youtube Arduino TED talk](https://www.youtube.com/embed/UoBUXOOdLXY)
 
 Arduino senses the environment by receiving inputs from many sensors, and affects its surroundings by controlling lights, motors, and other actuators. We can use it to build almost any game controller, or arcade like interactive installations.
 
