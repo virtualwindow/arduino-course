@@ -34,7 +34,7 @@ See the [Arduino Reference](http://www.arduino.cc/en/Reference/HomePage) documen
 **Further practice: Build a circuit and program the arduino to signal [SOS](http://en.wikipedia.org/wiki/SOS).**  
 **Further practice: Build a circuit and program the arduino to control three LED lights, similar to a [traffic signal robot](http://georgefrancisonline.homestead.com/WALKER_BROS_ANIMATION.gif).**
 
-## Measuring votage and light
+## Measuring voltage and light
 
 The arduino can use the A0-A5 inputs to measure voltage between 0-5 Volts as a 10bit number. This results in 5 volts reading as 1023, the highest number that can be represented by 10bits.  For this lesson you'll need a LDR (Light sensor) and a resistor that has roughly the same resistance as the light sensor. In our case its 10k ohm.
 
@@ -83,4 +83,4 @@ Open **Tools > Serial Monitor** and you should see the output from the sensor ch
 
 ![Imgur](http://i.imgur.com/jfcSzfl.jpg)
 
-You can combine the code to use all the sensors at once to form a vector representation of the current orientation in relation to gravity. See the quaternion vector rotation article on bitlab.io for more.
+You can combine the code to use all the sensors at once to form a vector representation of the current orientation in relation to gravity. More on this later.
